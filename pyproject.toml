@@ -14,9 +14,9 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.dependencies]
-python = ">=3.9, <3.12"
+python = ">=3.9,<3.11"
 pandas = "^2.2.3"
-scipy = "^1.13.0"
+scipy = ">=1.8, <1.9"
 pytz = "^2024.2"
 networkx = "^3.1"
 wittgenstein = "^0.3.4"
@@ -24,7 +24,7 @@ pandasql = "^0.7.3"
 scikit-learn = "^1.5.2"
 polars = "^1.8.0"
 pyarrow = "^17.0.0"
-lxml = "^5.3.0"
+lxml = ">=4.8.0"
 m5py = "^0.3.3"
 optuna = "^4.0.0"
 
